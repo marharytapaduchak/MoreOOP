@@ -1,5 +1,9 @@
+import characters.Character;
+
 public class Demo {
     public static void main(String args[]) {
-        System.out.println("Hello, world!");
+        Character c1 = CharacterFactory.createCharacter();
+        Character c2 = CharacterFactory.createCharacter();
+        new GameManager().fight(c1, c2);
     }
 }
