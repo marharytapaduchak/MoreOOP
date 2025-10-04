@@ -9,7 +9,8 @@ public class Elf extends Character{
     }
     
     @Override
-    public void kick(Character enemy) {
+    public void kick(Character enemy) 
+    {
         kickStrategy.kick(this, enemy);
     }
 }
